@@ -40,16 +40,43 @@
     justify-content: center;
 }
 
+.logoMainParent{
+    margin-top: -5vh;
+    display: inline-block;
+}
+
+.mainLogos #logo1{
+    height: 15vh;
+    width: 25vh; 
+}
+
+.mainLogos #logo2{
+    height: 8vh;
+    width: 25vh;
+}
+
 .gameBoard{
+    position: relative;
     margin-top: 30px;
     display: grid;
-    /* background: red; */
-    height: 90vh;
+    height: 70vh;
     width: 80vw;
 }
 
+#questionDiv{
+margin-left: 10px;
+margin-top: 90px;
+display: none;
+position: absolute;
+z-index: 999;
+background:#3A37C8;
+height: 560px;
+width: 1130px;
+text-align: center;
+color: white;
+}
+
 .topRow{
-    /* background: green; */
     height: 100%; 
     width: 100%;
     display: flex;
@@ -57,7 +84,6 @@
 }
 
 .row1{
-    /* background: blue; */
     height: 100%; 
     width: 100%;
     display: flex;
@@ -65,7 +91,6 @@
 }
 
 .row2{
-    /* background: pink;; */
     height: 100%; 
     width: 100%;
     display: flex;
@@ -73,7 +98,6 @@
 }
 
 .row3{
-    /* background: purple; */
     height: 100%; 
     width: 100%;
     display: flex;
@@ -81,7 +105,6 @@
 }
 
 .row4{
-    /* background: orange; */
     height: 100%; 
     width: 100%;
     display: flex;
@@ -89,22 +112,31 @@
 }
 
 .bttmRow{
+    margin-top: 20px;
     height: 70px; 
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
+.topcol{
+border: solid #3A37C8;
+width: 60%;
+height: 60%;
+font-size: 6pt;
+text-align: center;
+margin: 15px;
+}
+
 /* Round Corners */
 .col {
     border: solid #3A37C8;
-    /* background: green; */
     width: 40%;
     height: 60%;
     font-size: 24pt;
     text-align: center;
     padding-top: 40px;
-    margin: 5px;
+    margin: 15px;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -125,7 +157,7 @@
     width: 50%;
     height: 100%;
     font-size: 20pt; 
-    margin: 5px;
+    margin-left: 15px;
 }
 
 .username{

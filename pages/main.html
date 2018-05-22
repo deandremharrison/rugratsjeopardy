@@ -9,16 +9,37 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="mainBackground" >
-    <div class="gameBoard">
-        <div class="topRow">
-            <div class="col">1</div>
-            <div class="col">2</div>
-            <div class="col">3</div>
-            <div class="col">4</div>
+<body class="mainBackground">
+  
+
+    <div class="gameBoard">  
+        <div class="logoMainParent">
+        <div class="mainLogos">
+           <center> 
+            <img id="logo1" src="../images/rugratslogo.png" alt="">
+           
+             <img id="logo2" src="../images/jeopardylogo.png" alt="">
+            </center>
         </div>
+    </div>
+
+        <div id="questionDiv">
+            <h3>Amount</h3>
+            <h2>Question</h2>
+            <form action=""></form>
+            <button>Submit</button>
+
+        </div>
+
+        <div class="topRow">
+            <div class="topcol"><h1 class="animate-reveal animate-first">A pure CSS onload animation that plays once!</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-second">Apply it to multiple elements, with differing delays!</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-third">Amazing!!!</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-fourth">Amazing!!!</h1></div>
+        </div>
+
         <div class="row1">
-            <div class="col">100</div>
+            <div onclick="getQuestion();"  class="col">100</div>
             <div class="col">100</div>
             <div class="col">100</div>
             <div class="col">100</div>
@@ -43,12 +64,18 @@
         </div>
         <div class="bttmRow">
             <div class="bttmcol">
-                <div class="username"><span></span></div>
-                <div class="userscore">Score:<span>0</span></div> 
+                <div class="username">
+                    <span></span>
+                </div>
+                <div class="userscore">Score:
+                    <span>0</span>
+                </div>
             </div>
             <div class="bttmcol">
                 <div class="compuname">Computer</div>
-                <div class="compuscore">Score:<span>0</span></div> 
+                <div class="compuscore">Score:
+                    <span>0</span>
+                </div>
             </div>
         </div>
     </div>

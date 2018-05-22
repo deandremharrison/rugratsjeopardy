@@ -1,4 +1,7 @@
-function myFunction() {
-    document.getElementsByClassName('lpInput').display
-  }
+// alert("does this work");
 
+function getQuestion() {
+    document.getElementById('questionDiv').style.display= 'block';
+    
+}
+ 
