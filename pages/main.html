@@ -23,23 +23,29 @@
         </div>
     </div>
 
-        <div id="questionDiv">
+      <div id="questionDiv">
             <h3>Amount</h3>
-            <h2>Question</h2>
+            <center><div id="bubbleQuestion"> 
+                <br>
+                <h2 id="ques">Question</h2>
+            </div></center> 
             <form action=""></form>
-            <button>Submit</button>
+            <div id="charDiv">
+            <div><img id="quesChar" src="../images/spike.png" alt=""></div>
+            </div>
+            <button id="submitBttn">Submit</button>
 
-        </div>
+        </div>                                                                                                  
 
         <div class="topRow">
-            <div class="topcol"><h1 class="animate-reveal animate-first">A pure CSS onload animation that plays once!</h1></div>
-            <div class="topcol"><h1 class="animate-reveal animate-second">Apply it to multiple elements, with differing delays!</h1></div>
-            <div class="topcol"><h1 class="animate-reveal animate-third">Amazing!!!</h1></div>
-            <div class="topcol"><h1 class="animate-reveal animate-fourth">Amazing!!!</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-first">Angelica!</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-second">Who Said it?</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-third">Phil N Lil</h1></div>
+            <div class="topcol"><h1 class="animate-reveal animate-fourth">Everything Rugrats!</h1></div>
         </div>
 
         <div class="row1">
-            <div onclick="getQuestion();"  class="col">100</div>
+            <div onclick="getQuestion();moveChar();"  class="col">100</div>
             <div class="col">100</div>
             <div class="col">100</div>
             <div class="col">100</div>
@@ -64,8 +70,8 @@
         </div>
         <div class="bttmRow">
             <div class="bttmcol">
-                <div class="username">
-                    <span></span>
+                <div >
+                    <span id="username"></span>
                 </div>
                 <div class="userscore">Score:
                     <span>0</span>
@@ -80,6 +86,8 @@
         </div>
     </div>
     <script src="../rugrats.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

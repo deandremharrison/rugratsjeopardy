@@ -23,7 +23,7 @@
     margin-top: 30px;
 }
 
-.lpInput{
+#lpInput{
     margin-top: 20px;
     text-align: center;
     height: 40px;
@@ -68,12 +68,44 @@ margin-left: 10px;
 margin-top: 90px;
 display: none;
 position: absolute;
-z-index: 999;
+z-index: 997;
 background:#3A37C8;
 height: 560px;
 width: 1130px;
 text-align: center;
 color: white;
+}
+
+#bubbleQuestion{
+    /* background: red; */
+    background-image: url(images/speechbubble.png);
+    height: 265px;
+    width: 350px;
+}
+
+#ques{
+    /* background: green; */
+    height: 150px;
+    width: 250px;
+    /* margin-top: 840px; */
+}
+
+
+#charDiv{
+    /* background: pink; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+#quesChar{
+    /* background: yellow; */
+    margin-top: -20px;
+}
+
+#submitBttn{
+    border-radius: 15px;
+    width: 75px;
+    height: 50px;
 }
 
 .topRow{
