@@ -63,7 +63,7 @@
     width: 80vw;
 }
 
-#questionDiv{
+.questionDiv{
 margin-left: 10px;
 margin-top: 90px;
 display: none;
@@ -86,8 +86,9 @@ color: white;
 #ques{
     /* background: green; */
     height: 150px;
-    width: 250px;
-    /* margin-top: 840px; */
+    width: 200px;
+    margin-top: 30px;
+    margin-left: -30px;
 }
 
 
@@ -99,13 +100,22 @@ color: white;
 
 #quesChar{
     /* background: yellow; */
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
-#submitBttn{
+.ansBttnDiv{
+   height: 200px;
+   width: 100%;
+   margin-top: -200px;
+}
+
+.ansBttn{
+    display: flex;
+    text-align: center;
     border-radius: 15px;
-    width: 75px;
+    width: 200px;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .topRow{

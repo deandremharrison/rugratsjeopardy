@@ -10,67 +10,84 @@
 </head>
 
 <body class="mainBackground">
-  
 
-    <div class="gameBoard">  
+
+    <div class="gameBoard">
         <div class="logoMainParent">
-        <div class="mainLogos">
-           <center> 
-            <img id="logo1" src="../images/rugratslogo.png" alt="">
-           
-             <img id="logo2" src="../images/jeopardylogo.png" alt="">
-            </center>
-        </div>
-    </div>
+            <div class="mainLogos">
+                <center>
+                    <img id="logo1" src="../images/rugratslogo.png" alt="">
 
-      <div id="questionDiv">
-            <h3>Amount</h3>
-            <center><div id="bubbleQuestion"> 
-                <br>
-                <h2 id="ques">Question</h2>
-            </div></center> 
+                    <img id="logo2" src="../images/jeopardylogo.png" alt="">
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv">
+            <h1 class="amount"></h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Question</h2>
+                </div>
+            </center>
             <form action=""></form>
             <div id="charDiv">
-            <div><img id="quesChar" src="../images/spike.png" alt=""></div>
+                <div>
+                    <img id="quesChar" src="../images/susie.png" alt="">
+                </div>
             </div>
-            <button id="submitBttn">Submit</button>
-
-        </div>                                                                                                  
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Submit</button>
+                    <button class="ansBttn" id="secondBttn">Submit</button>
+                    <button class="ansBttn" id="thirdBttn">Submit</button>
+                </center>
+            </div>
+        </div>
 
         <div class="topRow">
-            <div class="topcol"><h1 class="animate-reveal animate-first">Angelica!</h1></div>
-            <div class="topcol"><h1 class="animate-reveal animate-second">Who Said it?</h1></div>
-            <div class="topcol"><h1 class="animate-reveal animate-third">Phil N Lil</h1></div>
-            <div class="topcol"><h1 class="animate-reveal animate-fourth">Everything Rugrats!</h1></div>
+            <div class="topcol">
+                <h1 class="animate-reveal animate-first">Angelica!</h1>
+            </div>
+            <div class="topcol">
+                <h1 class="animate-reveal animate-second">Who Said it?</h1>
+            </div>
+            <div class="topcol">
+                <h1 class="animate-reveal animate-third">Phil N Lil</h1>
+            </div>
+            <div class="topcol">
+                <h1 class="animate-reveal animate-fourth">Everything Rugrats!</h1>
+            </div>
         </div>
 
         <div class="row1">
-            <div onclick="getQuestion();moveChar();"  class="col">100</div>
-            <div class="col">100</div>
-            <div class="col">100</div>
-            <div class="col">100</div>
+            <div class="col" id="r1c1">100</div>
+            <div class="col" id="r1c2">100</div>
+            <div class="col" id="r1c3">100</div>
+            <div class="col" id="r1c4">100</div>
         </div>
         <div class="row2">
-            <div class="col">200</div>
-            <div class="col">200</div>
-            <div class="col">200</div>
-            <div class="col">200</div>
+            <div class="col" id="r2c1">200</div>
+            <div class="col" id="r2c2">200</div>
+            <div class="col" id="r2c3">200</div>
+            <div class="col" id="r2c4">200</div>
         </div>
         <div class="row3">
-            <div class="col">400</div>
-            <div class="col">400</div>
-            <div class="col">400</div>
-            <div class="col">400</div>
+            <div class="col" id="r3c1">400</div>
+            <div class="col" id="r3c2">400</div>
+            <div class="col" id="r3c3">400</div>
+            <div class="col" id="r3c4">400</div>
         </div>
         <div class="row4">
-            <div class="col">800</div>
-            <div class="col">800</div>
-            <div class="col">800</div>
-            <div class="col">800</div>
+            <div class="col" id="r4c1">800</div>
+            <div class="col" id="r4c2">800</div>
+            <div class="col" id="r4c3">800</div>
+            <div class="col" id="r4c4">800</div>
         </div>
         <div class="bttmRow">
             <div class="bttmcol">
-                <div >
+                <div>
                     <span id="username"></span>
                 </div>
                 <div class="userscore">Score:
@@ -85,8 +102,10 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
     <script src="../rugrats.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 </body>
 
