@@ -13,6 +13,10 @@
 
 // var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 
+$(document).ready(function() {
+  $("#themeMusic").get(0).play();
+});
+
 $('.ansBttn').click(function () {
   $('.questionDiv').css('display', 'none');
   var ansBttnValue = $('').val();
