@@ -7,11 +7,11 @@
 // })
 // }
 // 
-// var picArray = [
-//     "images/tommy.png","images/angelica.png","images/chuckie.png","images/dil.png","images/kimi.png","images/susie.png","images/spike.png"
-// ];
+var picArray = [
+    "images/tommy.png","images/angelica.png","images/chuckie.png","images/dil.png","images/kimi.png","images/susie.png","images/spike.png"
+];
 
-// var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+// var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
 
 $(document).ready(function() {
   $("#themeMusic").get(0).play();
@@ -36,18 +36,20 @@ var cat1_1 = {
 }
 
 $('#r1c1').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat1_1.pointVal);
   $('#ques').html(cat1_1.question);
   $('#firstBttn').html(cat1_1.ans1);
   $('#secondBttn').html(cat1_1.ans2);
   $('#thirdBttn').html(cat1_1.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c1").css("pointer-events","none");
   $("#r1c1").css("border","solid red");
   $("#r1c1").css('opacity', '0');
   $("audio#questionAudio")[0].play();
-  // $('#quesChar').attr('src', '../images/tommy.png');
+  
 })
 
 var cat1_2 = {
@@ -63,12 +65,14 @@ var cat1_2 = {
 
 
 $('#r1c2').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat1_2.pointVal);
   $('#ques').html(cat1_2.question);
   $('#firstBttn').html(cat1_2.ans1);
   $('#secondBttn').html(cat1_2.ans2);
   $('#thirdBttn').html(cat1_2.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);  
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c2").css("pointer-events","none");
   $("#r1c2").css("border","solid red");
@@ -88,12 +92,14 @@ var cat1_3 = {
 
 
 $('#r1c3').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat1_3.pointVal);
   $('#ques').html(cat1_3.question);
   $('#firstBttn').html(cat1_3.ans1);
   $('#secondBttn').html(cat1_3.ans2);
   $('#thirdBttn').html(cat1_3.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c3").css("pointer-events","none");
   $("#r1c3").css("border","solid red");
@@ -113,12 +119,14 @@ var cat1_4 = {
 
 
 $('#r1c4').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat1_4.pointVal);
   $('#ques').html(cat1_4.question);
   $('#firstBttn').html(cat1_4.ans1);
   $('#secondBttn').html(cat1_4.ans2);
   $('#thirdBttn').html(cat1_4.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c4").css("pointer-events","none");
   $("#r1c4").css("border","solid red");
@@ -137,12 +145,14 @@ var cat2_1 = {
 }
 
 $('#r2c1').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat2_1.pointVal);
   $('#ques').html(cat1_2.question);
   $('#firstBttn').html(cat1_2.ans1);
   $('#secondBttn').html(cat1_2.ans2);
   $('#thirdBttn').html(cat1_2.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c1").css("pointer-events","none");
   $("#r2c1").css("border","solid red");
@@ -162,12 +172,14 @@ var cat2_2 = {
 
 
 $('#r2c2').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat2_2.pointVal);
   $('#ques').html(cat2_2.question);
   $('#firstBttn').html(cat2_2.ans1);
   $('#secondBttn').html(cat2_2.ans2);
   $('#thirdBttn').html(cat2_2.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c2").css("pointer-events","none");
   $("#r2c2").css("border","solid red");
@@ -186,12 +198,14 @@ var cat2_3 = {
 }
 
 $('#r2c3').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat2_3.pointVal);
   $('#ques').html(cat2_3.question);
   $('#firstBttn').html(cat2_3.ans1);
   $('#secondBttn').html(cat2_3.ans2);
   $('#thirdBttn').html(cat2_3.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c3").css("pointer-events","none");
   $("#r2c3").css("border","solid red");
@@ -210,12 +224,14 @@ var cat2_4 = {
 }
 
 $('#r2c4').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];  
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat2_4.pointVal);
   $('#ques').html(cat2_4.question);
   $('#firstBttn').html(cat2_4.ans1);
   $('#secondBttn').html(cat2_4.ans2);
   $('#thirdBttn').html(cat2_4.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c4").css("pointer-events","none");
   $("#r2c4").css("border","solid red");
@@ -235,12 +251,14 @@ var cat3_1 = {
 
 
 $('#r3c1').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat3_1.pointVal);
   $('#ques').html(cat3_1.question);
   $('#firstBttn').html(cat3_1.ans1);
   $('#secondBttn').html(cat3_1.ans2);
   $('#thirdBttn').html(cat3_1.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c1").css("pointer-events","none");
   $("#r3c1").css("border","solid red");
@@ -259,12 +277,14 @@ var cat3_2 = {
 }
 
 $('#r3c2').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat3_2.pointVal);
   $('#ques').html(cat3_2.question);
   $('#firstBttn').html(cat3_2.ans1);
   $('#secondBttn').html(cat3_2.ans2);
   $('#thirdBttn').html(cat3_2.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c2").css("pointer-events","none");
   $("#r3c2").css("border","solid red");
@@ -283,12 +303,14 @@ var cat3_3 = {
 }
 
 $('#r3c3').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat3_3.pointVal);
   $('#ques').html(cat3_3.question);
   $('#firstBttn').html(cat3_3.ans1);
   $('#secondBttn').html(cat3_3.ans2);
   $('#thirdBttn').html(cat3_3.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c3").css("pointer-events","none");
   $("#r3c3").css("border","solid red");
@@ -307,12 +329,14 @@ var cat3_4 = {
 }
 
 $('#r3c4').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat3_4.pointVal);
   $('#ques').html(cat3_4.question);
   $('#firstBttn').html(cat3_4.ans1);
   $('#secondBttn').html(cat3_4.ans2);
   $('#thirdBttn').html(cat3_4.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c4").css("pointer-events","none");
   $("#r3c4").css("border","solid red");
@@ -332,12 +356,14 @@ var cat4_1 = {
 
 
 $('#r4c1').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat4_1.pointVal);
   $('#ques').html(cat4_1.question);
   $('#firstBttn').html(cat4_1.ans1);
   $('#secondBttn').html(cat4_1.ans2);
   $('#thirdBttn').html(cat4_1.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c1").css("pointer-events","none");
   $("#r4c1").css("border","solid red");
@@ -356,12 +382,14 @@ var cat4_2 = {
 }
 
 $('#r4c2').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat4_2.pointVal);
   $('#ques').html(cat4_2.question);
   $('#firstBttn').html(cat4_2.ans1);
   $('#secondBttn').html(cat4_2.ans2);
   $('#thirdBttn').html(cat4_2.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c2").css("pointer-events","none");
   $("#r4c2").css("border","solid red");
@@ -380,12 +408,14 @@ var cat4_3 = {
 }
 
 $('#r4c3').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat4_3.pointVal);
   $('#ques').html(cat4_3.question);
   $('#firstBttn').html(cat4_3.ans1);
   $('#secondBttn').html(cat4_3.ans2);
   $('#thirdBttn').html(cat4_3.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c3").css("pointer-events","none");
   $("#r4c3").css("border","solid red");
@@ -405,12 +435,14 @@ var cat4_4 = {
 
 
 $('#r4c4').click(function () {
+  var randomItem = picArray[Math.floor(Math.random()*picArray.length)];
   $('.questionDiv').css('display', 'block');
   $('.amount').html(cat4_4.pointVal);
   $('#ques').html(cat4_4.question);
   $('#firstBttn').html(cat4_4.ans1);
   $('#secondBttn').html(cat4_4.ans2);
   $('#thirdBttn').html(cat4_4.ans3);
+  $('#quesChar').attr('src',  '../' + randomItem);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c4").css("pointer-events","none");
   $("#r4c4").css("border","solid red");
