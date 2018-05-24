@@ -12,6 +12,7 @@ if not the point value will be subracted from the user's score.
 https://trello.com/b/0o38UFEH/rugrat-jeopardy
 
 ## Wireframe
+![pic](wireframe.jpg)
 
 ## Technologies Used
 Languages - HTML5, CSS3, Javascript, jQuery
