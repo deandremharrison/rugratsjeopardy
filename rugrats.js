@@ -36,6 +36,10 @@ $('#r1c1').click(function () {
   $('#secondBttn').html(cat1_1.ans2);
   $('#thirdBttn').html(cat1_1.ans3);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
+  $("#r1c1").css("pointer-events","none");
+  $("#r1c1").css("border","solid red");
+  $("#r1c1").text("");
+  // $('#r1c1').css('display', 'none');
   // $('#quesChar').attr('src', '../images/tommy.png');
 })
 
@@ -80,6 +84,7 @@ $('#r1c3').click(function () {
   $('#secondBttn').html(cat1_3.ans2);
   $('#thirdBttn').html(cat1_3.ans3);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
+
 })
 
 var cat1_4 = {
@@ -100,7 +105,7 @@ $('#r1c4').click(function () {
   $('#firstBttn').html(cat1_4.ans1);
   $('#secondBttn').html(cat1_4.ans2);
   $('#thirdBttn').html(cat1_4.ans3);
-  $('#charDiv').animate({ marginRight: "200px" }, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);  
 })
 
 var cat2_1 = {
