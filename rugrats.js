@@ -39,7 +39,7 @@ $('#r1c1').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c1").css("pointer-events","none");
   $("#r1c1").css("border","solid red");
-  $("#r1c1").text("");
+  $("#r1c1").css('opacity', '0');
   // $('#quesChar').attr('src', '../images/tommy.png');
 })
 
@@ -65,7 +65,7 @@ $('#r1c2').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c2").css("pointer-events","none");
   $("#r1c2").css("border","solid red");
-  $("#r1c2").text("");
+  $("#r1c2").css('opacity', '0');
 })
 
 var cat1_3 = {
@@ -89,7 +89,7 @@ $('#r1c3').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c3").css("pointer-events","none");
   $("#r1c3").css("border","solid red");
-  $("#r1c3").text("");
+  $("#r1c3").css('opacity', '0');
 })
 
 var cat1_4 = {
@@ -113,7 +113,7 @@ $('#r1c4').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r1c4").css("pointer-events","none");
   $("#r1c4").css("border","solid red");
-  $("#r1c4").text("");  
+  $("#r1c4").css('opacity', '0');
 })
 
 var cat2_1 = {
@@ -136,7 +136,7 @@ $('#r2c1').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c1").css("pointer-events","none");
   $("#r2c1").css("border","solid red");
-  $("#r2c1").text("");
+  $("#r2c1").css('opacity', '0');
 })
 
 var cat2_2 = {
@@ -160,7 +160,7 @@ $('#r2c2').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c2").css("pointer-events","none");
   $("#r2c2").css("border","solid red");
-  $("#r2c2").text("");
+  $("#r2c2").css('opacity', '0');
 })
 
 var cat2_3 = {
@@ -183,7 +183,7 @@ $('#r2c3').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c3").css("pointer-events","none");
   $("#r2c3").css("border","solid red");
-  $("#r2c3").text("");
+  $("#r2c3").css('opacity', '0');
 })
 
 var cat2_4 = {
@@ -206,7 +206,7 @@ $('#r2c4').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r2c4").css("pointer-events","none");
   $("#r2c4").css("border","solid red");
-  $("#r2c4").text("");
+  $("#r2c4").css('opacity', '0');
 })
 
 var cat3_1 = {
@@ -230,7 +230,7 @@ $('#r3c1').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c1").css("pointer-events","none");
   $("#r3c1").css("border","solid red");
-  $("#r3c1").text("");
+  $("#r3c1").css('opacity', '0');
 })
 
 var cat3_2 = {
@@ -253,7 +253,7 @@ $('#r3c2').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c2").css("pointer-events","none");
   $("#r3c2").css("border","solid red");
-  $("#r3c2").text("");
+  $("#r3c2").css('opacity', '0');
 })
 
 var cat3_3 = {
@@ -276,7 +276,7 @@ $('#r3c3').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c3").css("pointer-events","none");
   $("#r3c3").css("border","solid red");
-  $("#r3c3").text("");
+  $("#r3c3").css('opacity', '0');
 })
 
 var cat3_4 = {
@@ -299,7 +299,7 @@ $('#r3c4').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r3c4").css("pointer-events","none");
   $("#r3c4").css("border","solid red");
-  $("#r3c4").text("");
+  $("#r3c4").css('opacity', '0');
 })
 
 var cat4_1 = {
@@ -323,7 +323,7 @@ $('#r4c1').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c1").css("pointer-events","none");
   $("#r4c1").css("border","solid red");
-  $("#r4c1").text("");
+  $("#r4c1").css('opacity', '0');
 })
 
 var cat4_2 = {
@@ -346,7 +346,7 @@ $('#r4c2').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c2").css("pointer-events","none");
   $("#r4c2").css("border","solid red");
-  $("#r4c2").text("");
+  $("#r4c2").css('opacity', '0');
 })
 
 var cat4_3 = {
@@ -369,7 +369,7 @@ $('#r4c3').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c3").css("pointer-events","none");
   $("#r4c3").css("border","solid red");
-  $("#r4c3").text("");
+  $("#r4c3").css('opacity', '0');
 })
 
 var cat4_4 = {
@@ -393,5 +393,5 @@ $('#r4c4').click(function () {
   $('#charDiv').animate({ marginRight: "200px" }, 800);
   $("#r4c4").css("pointer-events","none");
   $("#r4c4").css("border","solid red");
-  $("#r4c4").text("");
+  $("#r4c4").css('opacity', '0');
 })
