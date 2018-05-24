@@ -6,13 +6,18 @@
 //     console.log($("#username"))
 // })
 // }
+// 
+var myArray = [
+  "Apples",
+  "Bananas",
+  "Pears"
+];
 
-function score(){
-  if 
-}
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 
 $('.ansBttn').click(function () {
   $('.questionDiv').css('display', 'none');
+  var ansBttnValue = $('').val();
 })
 
 var cat1_1 = {
@@ -32,7 +37,7 @@ $('#r1c1').click(function () {
   $('#firstBttn').html(cat1_1.ans1);
   $('#secondBttn').html(cat1_1.ans2);
   $('#thirdBttn').html(cat1_1.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
   $('#quesChar').attr('src', '../images/tommy.png');
 })
 
@@ -55,7 +60,7 @@ $('#r1c2').click(function () {
   $('#firstBttn').html(cat1_2.ans1);
   $('#secondBttn').html(cat1_2.ans2);
   $('#thirdBttn').html(cat1_2.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat1_3 = {
@@ -76,7 +81,7 @@ $('#r1c3').click(function () {
   $('#firstBttn').html(cat1_3.ans1);
   $('#secondBttn').html(cat1_3.ans2);
   $('#thirdBttn').html(cat1_3.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat1_4 = {
@@ -97,7 +102,7 @@ $('#r1c4').click(function () {
   $('#firstBttn').html(cat1_4.ans1);
   $('#secondBttn').html(cat1_4.ans2);
   $('#thirdBttn').html(cat1_4.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat2_1 = {
@@ -117,7 +122,7 @@ $('#r2c1').click(function () {
   $('#firstBttn').html(cat1_2.ans1);
   $('#secondBttn').html(cat1_2.ans2);
   $('#thirdBttn').html(cat1_2.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat2_2 = {
@@ -138,7 +143,7 @@ $('#r2c2').click(function () {
   $('#firstBttn').html(cat2_2.ans1);
   $('#secondBttn').html(cat2_2.ans2);
   $('#thirdBttn').html(cat2_2.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat2_3 = {
@@ -158,7 +163,7 @@ $('#r2c3').click(function () {
   $('#firstBttn').html(cat2_3.ans1);
   $('#secondBttn').html(cat2_3.ans2);
   $('#thirdBttn').html(cat2_3.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat2_4 = {
@@ -178,7 +183,7 @@ $('#r2c4').click(function () {
   $('#firstBttn').html(cat2_4.ans1);
   $('#secondBttn').html(cat2_4.ans2);
   $('#thirdBttn').html(cat2_4.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat3_1 = {
@@ -199,7 +204,7 @@ $('#r3c1').click(function () {
   $('#firstBttn').html(cat3_1.ans1);
   $('#secondBttn').html(cat3_1.ans2);
   $('#thirdBttn').html(cat3_1.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat3_2 = {
@@ -219,7 +224,7 @@ $('#r3c2').click(function () {
   $('#firstBttn').html(cat3_2.ans1);
   $('#secondBttn').html(cat3_2.ans2);
   $('#thirdBttn').html(cat3_2.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat3_3 = {
@@ -239,7 +244,7 @@ $('#r3c3').click(function () {
   $('#firstBttn').html(cat3_3.ans1);
   $('#secondBttn').html(cat3_3.ans2);
   $('#thirdBttn').html(cat3_3.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat3_4 = {
@@ -259,7 +264,7 @@ $('#r3c4').click(function () {
   $('#firstBttn').html(cat3_4.ans1);
   $('#secondBttn').html(cat3_4.ans2);
   $('#thirdBttn').html(cat3_4.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat4_1 = {
@@ -280,7 +285,7 @@ $('#r4c1').click(function () {
   $('#firstBttn').html(cat4_1.ans1);
   $('#secondBttn').html(cat4_1.ans2);
   $('#thirdBttn').html(cat4_1.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat4_2 = {
@@ -300,7 +305,7 @@ $('#r4c2').click(function () {
   $('#firstBttn').html(cat4_2.ans1);
   $('#secondBttn').html(cat4_2.ans2);
   $('#thirdBttn').html(cat4_2.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat4_3 = {
@@ -320,7 +325,7 @@ $('#r4c3').click(function () {
   $('#firstBttn').html(cat4_3.ans1);
   $('#secondBttn').html(cat4_3.ans2);
   $('#thirdBttn').html(cat4_3.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
 
 var cat4_4 = {
@@ -341,5 +346,5 @@ $('#r4c4').click(function () {
   $('#firstBttn').html(cat4_4.ans1);
   $('#secondBttn').html(cat4_4.ans2);
   $('#thirdBttn').html(cat4_4.ans3);
-  $('#charDiv').animate({marginRight:"200px"}, 800);
+  $('#charDiv').animate({ marginRight: "200px" }, 800);
 })
