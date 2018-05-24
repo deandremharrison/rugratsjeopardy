@@ -7,13 +7,11 @@
 // })
 // }
 // 
-var myArray = [
-  "Apples",
-  "Bananas",
-  "Pears"
-];
+// var picArray = [
+//     "images/tommy.png","images/angelica.png","images/chuckie.png","images/dil.png","images/kimi.png","images/susie.png","images/spike.png"
+// ];
 
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+// var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 
 $('.ansBttn').click(function () {
   $('.questionDiv').css('display', 'none');
@@ -38,7 +36,7 @@ $('#r1c1').click(function () {
   $('#secondBttn').html(cat1_1.ans2);
   $('#thirdBttn').html(cat1_1.ans3);
   $('#charDiv').animate({ marginRight: "200px" }, 800);
-  $('#quesChar').attr('src', '../images/tommy.png');
+  // $('#quesChar').attr('src', '../images/tommy.png');
 })
 
 var cat1_2 = {
