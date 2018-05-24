@@ -6,6 +6,10 @@ On the landing page users are prompted to enter a username. Once on the gameboar
 categories and point value. They will receive a question and three answers. If the get it right the will get the point value,
 if not the point value will be subracted from the user's score.
 
+## Link to Site
+
+## Trello
+
 ## Wireframe
 
 ## Technologies Used
