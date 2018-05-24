@@ -18,6 +18,7 @@ $('.ansBttn').click(function () {
   var ansBttnValue = $('').val();
   $("#charDiv").removeAttr('style');
   $("audio#questionAudio")[0].pause();
+  $("audio#questionAudio")[0].currentTime=0;
 })
 
 var cat1_1 = {
@@ -68,6 +69,7 @@ $('#r1c2').click(function () {
   $("#r1c2").css("pointer-events","none");
   $("#r1c2").css("border","solid red");
   $("#r1c2").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat1_3 = {
@@ -92,6 +94,7 @@ $('#r1c3').click(function () {
   $("#r1c3").css("pointer-events","none");
   $("#r1c3").css("border","solid red");
   $("#r1c3").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat1_4 = {
@@ -116,6 +119,7 @@ $('#r1c4').click(function () {
   $("#r1c4").css("pointer-events","none");
   $("#r1c4").css("border","solid red");
   $("#r1c4").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat2_1 = {
@@ -139,6 +143,7 @@ $('#r2c1').click(function () {
   $("#r2c1").css("pointer-events","none");
   $("#r2c1").css("border","solid red");
   $("#r2c1").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat2_2 = {
@@ -163,6 +168,7 @@ $('#r2c2').click(function () {
   $("#r2c2").css("pointer-events","none");
   $("#r2c2").css("border","solid red");
   $("#r2c2").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat2_3 = {
@@ -186,6 +192,7 @@ $('#r2c3').click(function () {
   $("#r2c3").css("pointer-events","none");
   $("#r2c3").css("border","solid red");
   $("#r2c3").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat2_4 = {
@@ -209,6 +216,7 @@ $('#r2c4').click(function () {
   $("#r2c4").css("pointer-events","none");
   $("#r2c4").css("border","solid red");
   $("#r2c4").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat3_1 = {
@@ -233,6 +241,7 @@ $('#r3c1').click(function () {
   $("#r3c1").css("pointer-events","none");
   $("#r3c1").css("border","solid red");
   $("#r3c1").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat3_2 = {
@@ -256,6 +265,7 @@ $('#r3c2').click(function () {
   $("#r3c2").css("pointer-events","none");
   $("#r3c2").css("border","solid red");
   $("#r3c2").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat3_3 = {
@@ -279,6 +289,7 @@ $('#r3c3').click(function () {
   $("#r3c3").css("pointer-events","none");
   $("#r3c3").css("border","solid red");
   $("#r3c3").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat3_4 = {
@@ -302,6 +313,7 @@ $('#r3c4').click(function () {
   $("#r3c4").css("pointer-events","none");
   $("#r3c4").css("border","solid red");
   $("#r3c4").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat4_1 = {
@@ -326,6 +338,7 @@ $('#r4c1').click(function () {
   $("#r4c1").css("pointer-events","none");
   $("#r4c1").css("border","solid red");
   $("#r4c1").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat4_2 = {
@@ -349,6 +362,7 @@ $('#r4c2').click(function () {
   $("#r4c2").css("pointer-events","none");
   $("#r4c2").css("border","solid red");
   $("#r4c2").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat4_3 = {
@@ -372,6 +386,7 @@ $('#r4c3').click(function () {
   $("#r4c3").css("pointer-events","none");
   $("#r4c3").css("border","solid red");
   $("#r4c3").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
 
 var cat4_4 = {
@@ -396,4 +411,5 @@ $('#r4c4').click(function () {
   $("#r4c4").css("pointer-events","none");
   $("#r4c4").css("border","solid red");
   $("#r4c4").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
 })
