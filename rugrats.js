@@ -17,6 +17,7 @@ $('.ansBttn').click(function () {
   $('.questionDiv').css('display', 'none');
   var ansBttnValue = $('').val();
   $("#charDiv").removeAttr('style');
+  $("audio#questionAudio")[0].pause();
 })
 
 var cat1_1 = {
@@ -40,6 +41,7 @@ $('#r1c1').click(function () {
   $("#r1c1").css("pointer-events","none");
   $("#r1c1").css("border","solid red");
   $("#r1c1").css('opacity', '0');
+  $("audio#questionAudio")[0].play();
   // $('#quesChar').attr('src', '../images/tommy.png');
 })
 
