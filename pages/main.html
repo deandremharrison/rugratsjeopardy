@@ -11,21 +11,22 @@
 
 <body class="mainBackground">
 
-
     <div class="gameBoard">
         <div class="logoMainParent">
-            <div class="mainLogos">
-                <center>
-                    <img id="logo1" src="../images/rugratslogo.png" alt="">
+            <a href="../index.html">
+                <div class="mainLogos">
+                    <center>
+                        <img id="logo1" src="../images/rugratslogo.png" alt="">
 
-                    <img id="logo2" src="../images/jeopardylogo.png" alt="">
-                </center>
-            </div>
+                        <img id="logo2" src="../images/jeopardylogo.png" alt="">
+                    </center>
+                </div>
+            </a>
         </div>
 
         <div class="questionDiv">
 
-            <audio id="questionAudio" src="../audio/question.mp3" ></audio>
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
 
             <h1 class="amount"></h1>
             <center>
@@ -34,7 +35,7 @@
                     <h2 id="ques">Question</h2>
                 </div>
             </center>
-            
+
             <div id="charDiv">
                 <div>
                     <img id="quesChar" src="../images/dil.png" alt="">
@@ -102,11 +103,20 @@
                 </div>
             </div>
         </div>
+
+        <div class="usernameDiv">
+            <input id="usernameInput" type="text" placeholder="Create A Username">
+            <button id="usernameButton" type="button" class="btn btn-secondary btn-lg">Submit
+            </button>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="../rugrats.js"></script>
 
 </body>

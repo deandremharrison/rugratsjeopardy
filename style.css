@@ -1,116 +1,112 @@
-.indexBackground{
-    background-image: url(images/background.png);
+body {
+    background: url(images/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-
-.logoParent{
+.logoParent {
     display: flex;
     justify-content: center;
+    /* border: solid orange; */
+    margin-top: 5vh;
 }
 
-.logos{
+.logos {
     display: flex;
     height: 100%;
     width: 30%;
     flex-direction: column;
 }
 
-#logo2{
+#logo2 {
     width: 70%;
 }
 
-.theCrew{
-    margin-top: 30px;
+.theCrew {
+    margin-top: 10vh;
 }
 
-#lpInput{
-    margin-top: 20px;
-    text-align: center;
-    height: 40px;
-}
-
-.btn{
+.btn {
     margin-top: 10px;
     background-color: #3A37C8;
 }
 
-.mainBackground{
+.mainBackground {
     background-image: url(images/rugratsback.png);
     display: flex;
     justify-content: center;
 }
 
-.logoMainParent{
+.logoMainParent {
     margin-top: -5vh;
     display: inline-block;
 }
 
-.mainLogos #logo1{
+.mainLogos #logo1 {
     height: 15vh;
-    width: 25vh; 
+    width: 25vh;
 }
 
-.mainLogos #logo2{
+.mainLogos #logo2 {
     height: 8vh;
     width: 25vh;
 }
 
-.gameBoard{
+.gameBoard {
     position: relative;
-    margin-top: 30px;
+    margin-top: 10vh;
     display: grid;
     height: 70vh;
     width: 80vw;
 }
 
-.questionDiv{
-margin-left: 10px;
-margin-top: 90px;
-display: none;
-position: absolute;
-z-index: 997;
-background:#3A37C8;
-height: 560px;
-width: 1130px;
-text-align: center;
-color: white;
+.questionDiv {
+    margin-top: 12vh;
+    display: none;
+    position: absolute;
+    z-index: 997;
+    background: #3A37C8;
+    height: 70vh;
+    width: 80vw;
+    text-align: center;
+    color: white;
 }
 
-#bubbleQuestion{
+#bubbleQuestion {
     /* background: red; */
     background-image: url(images/speechbubble.png);
     height: 265px;
     width: 350px;
 }
 
-#ques{
-    /* background: green; */
+#ques {
+    /*background: green; */
     height: 150px;
     width: 200px;
     margin-top: 30px;
     margin-left: -30px;
 }
 
-
-#charDiv{
+#charDiv {
     /* background: pink; */
     display: flex;
     justify-content: flex-end;
 }
 
-#quesChar{
+#quesChar {
     /* background: yellow; */
     margin-top: -40px;
 }
 
-.ansBttnDiv{
-   height: 200px;
-   width: 100%;
-   margin-top: -200px;
-  
+.ansBttnDiv {
+    height: 200px;
+    width: 100%;
+    margin-top: -200px;
 }
 
-.ansBttn{
+.ansBttn {
     display: flex;
     justify-content: center;
     border-radius: 15px;
@@ -118,62 +114,64 @@ color: white;
     height: 50px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #3A37C8; 
+    color: #3A37C8;
 }
 
-.topRow{
-    height: 100%; 
+.topRow {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.row1{
-    height: 100%; 
+.row1 {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.row2{
-    height: 100%; 
+.row2 {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.row3{
-    height: 100%; 
+.row3 {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.row4{
-    height: 100%; 
+.row4 {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.bttmRow{
+.bttmRow {
     margin-top: 20px;
-    height: 70px; 
+    height: 70px;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.topcol{
-border: solid #3A37C8;
-width: 60%;
-height: 60%;
-font-size: 6pt;
-text-align: center;
-margin: 15px;
+.topcol {
+    border: solid #3A37C8;
+    width: 60%;
+    height: 60%;
+    font-size: 6pt;
+    text-align: center;
+    margin: 15px;
 }
+
 
 /* Round Corners */
+
 .col {
     border: solid #3A37C8;
     width: 40%;
@@ -191,35 +189,54 @@ margin: 15px;
     transition-duration: 0.3s;
     -webkit-transition-property: border-radius;
     transition-property: border-radius;
-  }
-  .col:hover, .col:focus, .col:active {
-    border-radius: 1em;
-  }
+}
 
-.bttmcol{
+.col:hover, .col:focus, .col:active {
+    border-radius: 1em;
+}
+
+.bttmcol {
     display: flex;
     border-left: solid #3A37C8;
     width: 50%;
     height: 100%;
-    font-size: 20pt; 
+    font-size: 20pt;
     margin-left: 15px;
 }
 
-.username{
+.username {
     margin-top: 20px;
 }
 
-.compuname{
+.compuname {
     margin-top: 20px;
 }
 
-.userscore{
+.userscore {
     margin-left: 100px;
     margin-top: 20px;
 }
 
-.compuscore{
+.compuscore {
     margin-left: 100px;
     margin-top: 20px;
 }
 
+.usernameDiv {
+    margin-top: 3vh;
+}
+
+#usernameInput {
+    font-size: 16px;
+    width: 50vw;
+    text-align: center;
+    height: 4vh;
+}
+
+#usernameButton {
+    font-size: 13px;
+    color: white;
+    width: 5vw;
+    height: 4vh;
+    outline: none;
+}
