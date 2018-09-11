@@ -13,6 +13,32 @@
 
 <body class="indexBackground">
 
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="closeModal">X</a>
+
+            <h2>Game Instructions</h2>
+
+            <img class="modimg" src="images/tommyrightanswer.png">
+
+            "Hi! I'm Tommy! Befoy yu start I'm going to give yu a foo inscrushens to better enjoy ta game."
+<p>
+                1) Select the "Let's Play" Button at the bottom of the screen.
+
+                <br><br> 2) Enter your username at the bottom of the gameboard.
+
+                <br><br> 3) Select a question by category and points.The more points, the harder the
+                question.  <br>*The computer will have to answer the same question.
+
+                <br><br> 4) Answer the question by selecting the button you believe to be the right answer.
+
+                <br><br> 5) The first to 2500 wins! <br>*If both you players reach over 2500 on the same question it's a tie.
+</p>
+                "Good luck and I'll see yu at ta end of the game!"
+            
+        </div>
+    </div>
+
     <audio id="themeMusic" src="audio/theme.wav"></audio>
 
     <div class="logoParent">
@@ -22,6 +48,9 @@
                 <img id="logo2" src="images/jeopardylogo.png" alt="">
             </center>
             <img class="theCrew" src="images/thecrew.png" alt="">
+            <button id="openModal" onclick="location.href='#openModal';" type="button" class="btn btn-secondary btn-lg">How
+                To Play
+            </button>
             <button id="letsPlay" onclick="location.href='pages/main.html';" type="button" class="btn btn-secondary btn-lg">Let's
                 Play!
             </button>

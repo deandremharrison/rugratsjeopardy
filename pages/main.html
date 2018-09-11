@@ -11,6 +11,78 @@
 
 <body class="mainBackground">
 
+    <div class="winnerDiv">
+        <center>
+            <h1>WINNER!</h1>
+            <img class="modimg" src="../images/tommyrightanswer.png">
+            <h3>"I knews yu culd do it!"</h3>
+            <div class="endOfGameNameAndScore">
+                <div class="usernameSection">
+                    <div class="username">Username</div>
+                    <div class="userscore">Score:
+                        <span>0</span>
+                    </div>
+                </div>
+                <div class="compuSection">
+                    <div class="compuname">Computer</div>
+                    <div class="compuscore">Score:
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+            <button id="endButton" onclick="location.href='../index.html';" type="button" class="btn btn-secondary btn-lg">Play Again!
+            </button>
+        </center>
+    </div>
+
+    <div class="loserDiv">
+        <center>
+            <h1>Computer Wins!</h1>
+            <img class="modimg" src="../images/tommycanfixit.jpg">
+            <h3>"No worry, we can fix tis!"</h3>
+            <div class="endOfGameNameAndScore">
+                    <div class="usernameSection">
+                        <div class="username">Username</div>
+                        <div class="userscore">Score:
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <div class="compuSection">
+                        <div class="compuname">Computer</div>
+                        <div class="compuscore">Score:
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="endButton" onclick="location.href='../index.html';" type="button" class="btn btn-secondary btn-lg">Play Again!
+                </button>
+        </center>
+    </div>
+
+    <div class="tieDiv">
+        <center>
+            <h1>It's a tie!</h1>
+            <img class="modimg" src="../images/tommyrightanswer.png">
+            <h3>"Well yu no lose. Twy again!"</h3>
+            <div class="endOfGameNameAndScore">
+                    <div class="usernameSection">
+                        <div class="username">Username</div>
+                        <div class="userscore">Score:
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <div class="compuSection">
+                        <div class="compuname">Computer</div>
+                        <div class="compuscore">Score:
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="endButton" onclick="location.href='../index.html';" type="button" class="btn btn-secondary btn-lg">Play Again!
+                </button>
+        </center>
+    </div>
+
     <div class="gameBoard">
         <div class="logoMainParent">
             <a href="../index.html">
@@ -24,15 +96,20 @@
             </a>
         </div>
 
-        <div class="questionDiv">
+        <!-- _____________________beginning of question divs_________________________ -->
+
+        <!-- __________________________beginning of row 1 divs____________________________ -->
+
+        <div class="questionDiv" id="questionDivr1c1">
 
             <audio id="questionAudio" src="../audio/question.mp3"></audio>
 
-            <h1 class="amount"></h1>
+            <h1 class="amount">100</h1>
             <center>
                 <div id="bubbleQuestion">
                     <br>
-                    <h2 id="ques">Question</h2>
+                    <h2 id="ques">What does Angelica demand at 4:00 AM when she has a broken leg?</h2>
+
                 </div>
             </center>
 
@@ -43,13 +120,413 @@
             </div>
             <div class="ansBttnDiv">
                 <center>
-                    <button class="ansBttn" id="firstBttn">Submit</button>
-                    <button class="ansBttn" id="secondBttn">Submit</button>
-                    <button class="ansBttn" id="thirdBttn">Submit</button>
+                    <button class="ansBttn" id="firstBttn"> Chocolate Pudding</button>
+                    <button class="ansBttn" id="secondBttn">The Family Room TV</button>
+                    <button class="ansBttn" id="thirdBttn">Tommy's Ball</button>
                 </center>
             </div>
         </div>
 
+
+        <div class="questionDiv" id="questionDivr1c2">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">100</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques"> Who said it? -"I haven't eaten since the last time I eated."</h2>
+                </div>
+            </center>
+
+            <div id="charDiv2">
+                <div>
+                    <img id="quesChar2" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Spike</button>
+                    <button class="ansBttn" id="secondBttn">Angelica</button>
+                    <button class="ansBttn" id="thirdBttn">Phil</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr1c3">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">100</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">What was Chuckie's first word spoken to grown-ups?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv3">
+                <div>
+                    <img id="quesChar3" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Hello</button>
+                    <button class="ansBttn" id="secondBttn">Yes</button>
+                    <button class="ansBttn" id="thirdBttn">No</button>
+                </center>
+            </div>
+        </div>
+        <div class="questionDiv" id="questionDivr1c4">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">100</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Which <u>isn't</u> a Rugrats movie?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv4">
+                <div>
+                    <img id="quesChar4" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Rugrats Grown Up</button>
+                    <button class="ansBttn" id="secondBttn">Rugrats Go Wild</button>
+                    <button class="ansBttn" id="thirdBttn">Rugrats in Paris</button>
+                </center>
+            </div>
+        </div>
+
+
+        <!-- __________________________beginning of row 2 divs____________________________ -->
+
+        <div class="questionDiv" id="questionDivr2c1">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">200</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">What is the name of Angelica's cat?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv5">
+                <div>
+                    <img id="quesChar5" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Fluffy</button>
+                    <button class="ansBttn" id="secondBttn">Snowflake</button>
+                    <button class="ansBttn" id="thirdBttn">Princess</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr2c2">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">200</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Who said it? -"Take a nap and keep us both out of trouble."</h2>
+                </div>
+            </center>
+
+            <div id="charDiv6">
+                <div>
+                    <img id="quesChar6" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Chuckie</button>
+                    <button class="ansBttn" id="secondBttn">Grandpa</button>
+                    <button class="ansBttn" id="thirdBttn">Tommy</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr2c3">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">200</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">What is the name of Chuckie's bug?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv7">
+                <div>
+                    <img id="quesChar7" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Mellville</button>
+                    <button class="ansBttn" id="secondBttn">Melvin</button>
+                    <button class="ansBttn" id="thirdBttn">Calvin</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr2c4">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">200</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">What do the Rugrats call coffee?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv8">
+                <div>
+                    <img id="quesChar8" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Kofe</button>
+                    <button class="ansBttn" id="secondBttn">Jobe</button>
+                    <button class="ansBttn" id="thirdBttn">Wakey Juice</button>
+                </center>
+            </div>
+        </div>
+
+        <!-- __________________________beginning of row 3 divs____________________________ -->
+
+        <div class="questionDiv" id="questionDivr3c1">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">400</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">What does Angelica get grom the Tooth Fairy for her tooth?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv9">
+                <div>
+                    <img id="quesChar9" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">A Penny</button>
+                    <button class="ansBttn" id="secondBttn">A Note</button>
+                    <button class="ansBttn" id="thirdBttn">A Dime</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr3c2">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">400</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Who said it? -"Tommy do you still think we're brothers?"</h2>
+                </div>
+            </center>
+
+            <div id="charDiv10">
+                <div>
+                    <img id="quesChar10" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Kimi</button>
+                    <button class="ansBttn" id="secondBttn">Chuckie</button>
+                    <button class="ansBttn" id="thirdBttn">Lil</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr3c3">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">400</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Which planet was on Chuckie's shirt?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv11">
+                <div>
+                    <img id="quesChar11" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Earth</button>
+                    <button class="ansBttn" id="secondBttn">Uranus</button>
+                    <button class="ansBttn" id="thirdBttn">Saturn</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="questionDiv" id="questionDivr3c4">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">400</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Where was Rugrats production based out of?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv12">
+                <div>
+                    <img id="quesChar12" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">California</button>
+                    <button class="ansBttn" id="secondBttn">Arizona</button>
+                    <button class="ansBttn" id="thirdBttn">Florida</button>
+                </center>
+            </div>
+        </div>
+
+        <!-- __________________________beginning of row 4 divs____________________________ -->
+
+        <div class="questionDiv" id="questionDivr4c1">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">800</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Angelica diagnoses Chuckie with what illness?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv13">
+                <div>
+                    <img id="quesChar13" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Clownophobia</button>
+                    <button class="ansBttn" id="secondBttn">Rhinoceritis</button>
+                    <button class="ansBttn" id="thirdBttn">Reptar Fever</button>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="questionDiv" id="questionDivr4c2">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount"></h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Who said it? -"Nakie is good. Nakie is free. Nakie is nakie!"</h2>
+                </div>
+            </center>
+
+            <div id="charDiv14">
+                <div>
+                    <img id="quesChar14" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Phil</button>
+                    <button class="ansBttn" id="secondBttn">Chuckie</button>
+                    <button class="ansBttn" id="thirdBttn">Tommy</button>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="questionDiv" id="questionDivr4c3">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">800</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">Which <u>isn't</u> something that Chuckie is afraid of?</h2>
+                </div>
+            </center>
+
+            <div id="charDiv15">
+                <div>
+                    <img id="quesChar15" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">Santa</button>
+                    <button class="ansBttn" id="secondBttn">Jello</button>
+                    <button class="ansBttn" id="thirdBttn">Musical Chairs</button>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="questionDiv" id="questionDivr4c4">
+
+            <audio id="questionAudio" src="../audio/question.mp3"></audio>
+
+            <h1 class="amount">800</h1>
+            <center>
+                <div id="bubbleQuestion">
+                    <br>
+                    <h2 id="ques">"How many years did Rugrats run on Nickelodeon?"</h2>
+                </div>
+            </center>
+
+            <div id="charDiv16">
+                <div>
+                    <img id="quesChar16" src="../images/dil.png" alt="">
+                </div>
+            </div>
+            <div class="ansBttnDiv">
+                <center>
+                    <button class="ansBttn" id="firstBttn">8</button>
+                    <button class="ansBttn" id="secondBttn">22</button>
+                    <button class="ansBttn" id="thirdBttn">14</button>
+                </center>
+            </div>
+        </div>
+        <!-- _______________________end of queston divs ________________________ -->
         <div class="topRow">
             <div class="topcol">
                 <h1 class="animate-reveal animate-first">Angelica!</h1>
@@ -104,13 +581,17 @@
             </div>
         </div>
 
-        <div class="usernameDiv">
-            <input id="usernameInput" type="text" placeholder="Create A Username">
-            <button id="usernameButton" type="button" class="btn btn-secondary btn-lg">Submit
-            </button>
-        </div>
+        <center>
+            <div class="usernameDiv">
+                <input id="usernameInput" type="text" placeholder="Create A Username">
+                <button id="usernameButton" type="button" class="btn btn-secondary btn-lg">Submit
+                </button>
+            </div>
+        </center>
     </div>
 
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
