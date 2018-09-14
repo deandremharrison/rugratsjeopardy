@@ -93,8 +93,6 @@ $('#questionDivr1c1 .ansBttn').click(function (e) {
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
-
-
   $('#questionDivr1c1').css('display', 'none');
   $("#charDiv").removeAttr('style');
   $("audio#questionAudio")[0].pause();
