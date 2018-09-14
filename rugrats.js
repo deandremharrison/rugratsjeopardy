@@ -58,8 +58,8 @@ $('#questionDivr1c1 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat1_1.answer
   var answerValue = cat1_1.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     console.log(answerValue)
@@ -123,8 +123,8 @@ $('#questionDivr1c2 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat1_2.answer
   var answerValue = cat1_2.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     console.log(answerValue)
@@ -186,8 +186,8 @@ $('#questionDivr1c3 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat1_3.answer
   var answerValue = cat1_3.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     console.log(answerValue)
@@ -247,8 +247,8 @@ $('#questionDivr1c4 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat1_4.answer
   var answerValue = cat1_4.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -306,8 +306,8 @@ $('#questionDivr2c1 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat2_1.answer
   var answerValue = cat2_1.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -366,8 +366,8 @@ $('#questionDivr2c2 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat2_2.answer
   var answerValue = cat2_2.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -425,8 +425,8 @@ $('#questionDivr2c3 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat2_3.answer
   var answerValue = cat2_3.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -484,8 +484,8 @@ $('#questionDivr2c4 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat2_4.answer
   var answerValue = cat2_4.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -544,8 +544,8 @@ $('#questionDivr3c1 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat3_1.answer
   var answerValue = cat3_1.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -603,8 +603,8 @@ $('#questionDivr3c2 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat3_2.answer
   var answerValue = cat3_2.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -662,8 +662,8 @@ $('#questionDivr3c3 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat3_3.answer
   var answerValue = cat3_3.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -721,8 +721,8 @@ $('#questionDivr3c4 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat3_4.answer
   var answerValue = cat3_4.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -781,8 +781,8 @@ $('#questionDivr4c1 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat4_1.answer
   var answerValue = cat4_1.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -840,8 +840,8 @@ $('#questionDivr4c2 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat4_2.answer
   var answerValue = cat4_2.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -899,8 +899,8 @@ $('#questionDivr4c3 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat4_3.answer
   var answerValue = cat4_3.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
     userscore = userscore + answerValue;
@@ -959,15 +959,17 @@ $('#questionDivr4c4 .ansBttn').click(function (e) {
   var idClicked = e.target.id;
   var answer = cat4_4.answer
   var answerValue = cat4_4.pointVal
-  var computerRandomNum = Math.floor((Math.random() * 2) + 1);
-  var computerRightAns = 2
+  var computerRandomNum = Math.floor((Math.random() * 2));
+  var computerRightAns = 1
   if (idClicked === answer) {
     swal("Correct", "Good Job!", "success");
+    console.log(computerRandomNum);
     userscore = userscore + answerValue;
     $('.userscore span').html(userscore);
   }
   else {
     swal("Incorrect!", "Awww, Next Tme!", "error");
+    console.log(computerRandomNum);
     userscore = userscore - answerValue;
     $('.userscore span').html(userscore);
   };
@@ -979,7 +981,7 @@ $('#questionDivr4c4 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=2500 && userscore >=800){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
