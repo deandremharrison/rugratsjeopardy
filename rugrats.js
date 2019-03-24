@@ -32,6 +32,7 @@ $(document).ready(function () {
   $("#themeMusic").get(0).play();
 });
 
+
 // beginning of questiondivs
 var userscore = 0;
 var compuscore = 0;
@@ -80,16 +81,15 @@ $('#questionDivr1c1 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };    
-  
-  if (compuscore >=2500 && userscore >=2500){
+    if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -143,15 +143,15 @@ $('#questionDivr1c2 .ansBttn').click(function (e) {
     $('.compuscore span').html(compuscore);
   };
 
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -205,15 +205,15 @@ $('#questionDivr1c3 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -265,15 +265,15 @@ $('#questionDivr1c4 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -324,15 +324,15 @@ $('#questionDivr2c1 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -384,15 +384,15 @@ $('#questionDivr2c2 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -443,15 +443,15 @@ $('#questionDivr2c3 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -502,15 +502,15 @@ $('#questionDivr2c4 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -562,15 +562,15 @@ $('#questionDivr3c1 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -621,15 +621,15 @@ $('#questionDivr3c2 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -680,15 +680,15 @@ $('#questionDivr3c3 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -739,15 +739,15 @@ $('#questionDivr3c4 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -799,15 +799,15 @@ $('#questionDivr4c1 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -858,15 +858,15 @@ $('#questionDivr4c2 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -917,15 +917,15 @@ $('#questionDivr4c3 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=2500){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
@@ -979,15 +979,15 @@ $('#questionDivr4c4 .ansBttn').click(function (e) {
     compuscore = compuscore - answerValue
     $('.compuscore span').html(compuscore);
   };
-  if (compuscore >=2500 && userscore >=800){
+  if (compuscore >=1000 && userscore >=1000){
     $('.gameBoard').css('display', 'none');
     $('.tieDiv').css('display', 'block');
   }
-  else if(userscore>=2500){
+  else if(userscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.winnerDiv').css('display', 'block');
   }
-  else if (compuscore>=2500){
+  else if (compuscore>=1000){
     $('.gameBoard').css('display', 'none');
     $('.loserDiv').css('display', 'block');
   };
