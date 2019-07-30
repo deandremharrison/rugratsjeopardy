@@ -7,6 +7,7 @@ categories and point value. They will receive a question and three answers. If t
 if not the point value will be subracted from the user's score.
 
 ## Link to Site
+https://rugratsjeopardy.herokuapp.com/index.html
 
 ## Trello
 https://trello.com/b/0o38UFEH/rugrat-jeopardy
